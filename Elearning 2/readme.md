@@ -71,9 +71,9 @@ List danhSachNV = NULL;  // Danh sách nhân viên toàn cục
 ### 4. Đọc/Ghi file
 | Hàm | Mô tả |
 |-----|-------|
-| `write_to_file(const string& filename)` | Ghi danh sách vào file CSV |
-| `read_from_file(const string& filename)` | Đọc danh sách từ file CSV |
-| `parseNhanVien(const string& line)` | Parse một dòng CSV thành struct nhanVien |
+| `write_to_file(const string& filename)` | Ghi danh sách vào file|
+| `read_from_file(const string& filename)` | Đọc danh sách từ file|
+| `parseNhanVien(const string& line)` | Parse một dòng thành struct nhanVien |
 
 ### 5. Hiển thị dữ liệu
 | Hàm | Mô tả |
